@@ -1,12 +1,11 @@
 #Module 6, Part 5: Practice with dictionaries here
 
 
-my_phonebook={"Statue of Liberty":2125555555, "Ghostbusters":2125551234}
-
-###
+my_phonebook={"Statue of Liberty":2125555555, "Ghostbusters":1234567890}
 #Assign the value of the Statue of Liberty's phone number to the variable, num
 ###
-
+num=my_phonebook["Statue of Liberty"]
+print (num)
 ###
 #Print the variable, num
 ###
@@ -16,7 +15,7 @@ my_phonebook={"Statue of Liberty":2125555555, "Ghostbusters":2125551234}
 ###
 
 #Here's an empty dictionary
-your_phonebook={}
+your_phonebook={"key1":key1 ,"key2":key2 ,"key3":key3, "key4":key4 ,"key5":key5}
 
 ###
 #Add 5 values to it like this
